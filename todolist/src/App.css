@@ -1,0 +1,68 @@
+.home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.create_form input{
+  width: 300px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  outline: none;
+}
+.create_form button{
+  padding: 10px;
+  background-color: rgb(235, 22, 58);
+  color: white ;
+  cursor: pointer;
+}
+.create_form button:hover{
+  background-color: rgb(23, 7, 10);
+  color: white ;
+}
+
+
+.task {
+  margin: 10px 0; 
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f0f0f0; 
+  border-radius: 5px;
+  width: 350px;
+  height: 50px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  transition: background-color 0.1s ease-in-out; 
+}
+
+.task p {
+  margin: 0;
+}
+
+.task:hover {
+  background-color: #e0e0e0; 
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox .icon {
+  margin-right: 10px;
+  font-size: 18px; 
+}
+
+.task .icon {
+  font-size: 20px; 
+  cursor: pointer;
+}
+
+.task .trash-icon {
+  display: flex;
+  align-items: center;
+}
+
+.line_through {
+  text-decoration: line-through;
+}
